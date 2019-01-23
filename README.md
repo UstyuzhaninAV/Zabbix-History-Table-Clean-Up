@@ -27,7 +27,7 @@ Since this is not offical procedure, but it has worked for me so use it at your 
 	sudo service zabbix-server stop;
 
 ### Step 2 
-#### Table Table Backup.
+#### Table Backup.
 **Comand**
 
 	mysqldump -uzabbix -pzabbix zabbix history_uint > /tmp/history_uint.dql
